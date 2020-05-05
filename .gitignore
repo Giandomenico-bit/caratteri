@@ -9,6 +9,7 @@ ContaLinee
 ContaSpaziature
 ContaVocali
 ContaCifre
+SpaziMultipli
 
 # Linker output
 *.ilk
