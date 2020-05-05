@@ -6,6 +6,7 @@
 copia
 ContaCar
 ContaLinee
+ContaSpaziature
 
 # Linker output
 *.ilk
