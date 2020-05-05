@@ -8,6 +8,7 @@ ContaCar
 ContaLinee
 ContaSpaziature
 ContaVocali
+ContaCifre
 
 # Linker output
 *.ilk
