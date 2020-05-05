@@ -17,7 +17,7 @@ int main( void ) {
     if( spazi == 0 ) {
       putchar( ch );
     }
-    // esistono una sola spaziatura
+    // esiste una sola spaziatura
     else if( spazi == 1 ) {
       putchar( ' ' );
       putchar( ch );
