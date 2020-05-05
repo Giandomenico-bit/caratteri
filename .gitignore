@@ -5,6 +5,7 @@
 *.o
 copia
 ContaCar
+ContaLinee
 
 # Linker output
 *.ilk
