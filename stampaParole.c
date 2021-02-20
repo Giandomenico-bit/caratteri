@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include <ctype.h>
 
 int main( void ) {
 
   char ch;
 
   while( ( ch = getchar() ) != EOF ) {
-      if( ch == ' ' )
+      if( issapce( ch ) )
           putchar( '\n' );
       else
           putchar( ch );
