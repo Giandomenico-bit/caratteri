@@ -16,14 +16,18 @@ int main( void ) {
    }
 
    while( ( ch = fgetc( fpunt ) ) != EOF ) {
+	   // se isspace e' vero 
+	   // ch = '\n' oppure ch = ' ' oppure
+	   // ch = '\f' oppure ch = '\r' oppure
+	   // ch = '\t' oppure ch = '\v'
 	   if( isspace( ch ) ) {
-		   if( ch == ' ' )
-           parole++;
-       else
-		      riga++;
-    }
+	       if( ch == ' ' )
+                   parole++;
+       	       else
+		   riga++;
+           }
 	   else
-		   caratteri++;
+	       caratteri++;
    }
 
    printf( "Parole totali : %u\n", parole + 1 );
