@@ -1,15 +1,23 @@
+/* Si scriva un programma C stampaparole.c che
+stampi, una per riga, le parole di un testo
+fornito allo standard input. Si ipotizzi che
+nel testo in ingresso non siano presenti spazi multipli.
+
+All'interno del codice sia presente la tabella
+degli stati sotto forma di commento. */
+
 #include <stdio.h>
 #include <ctype.h>
 
 int main( void ) {
 
-  char ch;
+  char c;
 
-  while( ( ch = getchar() ) != EOF ) {
-      if( issapce( ch ) )
+  while( ( c = getchar() ) != EOF ) {
+      if( issapce( c ) )
           putchar( '\n' );
       else
-          putchar( ch );
+          putchar( c );
   }
 
   return 0;
