@@ -8,10 +8,9 @@ int main( void ){
 
 	char c;
 
-	while( (c = getchar()) != '\n' && c != EOF ) {
-		printf( "%c", c );
-	}
-	puts( "" );
+	while( ( c = getchar() ) != EOF )
+			putchar( c );
+	putchar( '\n' );
 
 	return 0;
 }
