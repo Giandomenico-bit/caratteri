@@ -15,7 +15,7 @@ int main( void ) {
   contaSpazi = 0;
   contaCaratteri = 0;
 
-  printf( "Inserisci caratteri : " );
+  printf( "%s", "Inserisci caratteri : " );
 
   while( ( c = getchar() ) != '\n' ) {
 
@@ -25,7 +25,7 @@ int main( void ) {
           contaSpazi++;
       else
           contaCaratteri++;
-          
+
   }
 
   printf( "\nNumero spazi : %u\n", contaSpazi );
