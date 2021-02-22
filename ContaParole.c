@@ -11,8 +11,8 @@ int main( void ) {
 
   FILE* fpunt = fopen( "file.txt", "r" );
   if( fpunt == NULL ) {
-	  fprintf( stderr, "Errore!" );
-	  return 1;
+      fprintf( stderr, "Errore!" );
+      return 1;
    }
 
    while( ( ch = fgetc( fpunt ) ) != EOF ) {
