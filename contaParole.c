@@ -19,11 +19,11 @@ int main( void ) {
   unsigned int riga = 0;
 
    while( ( c = getchar() ) != EOF ) {
-	   if( isspace( c ) ) {
-	       if( c == '\n' ) riga++;
+     if( isspace( c ) ) {
+	 if( c == '\n' ) riga++;
        	 else parole++;
      }
-	   else caratteri++;
+     else caratteri++;
    }
 
    printf( "Parole totali : %u\n", parole + riga );
