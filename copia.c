@@ -6,11 +6,11 @@ per copiare file di caratteri.*/
 
 int main( void ){
 
-	char c;
+  char c;
 
-	while( ( c = getchar() ) != EOF )
-			putchar( c );
-	putchar( '\n' );
+  while( ( c = getchar() ) != EOF )
+       putchar( c );
+  putchar( '\n' );
 
-	return 0;
+  return 0;
 }
